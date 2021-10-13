@@ -1,18 +1,7 @@
-/*
-
-Tooplate 2117 Infinite Loop
-
-https://www.tooplate.com/view/2117-infinite-loop
-
-*/
-
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
 
 body {
-	/*font-family: "Raleway", sans-serif;*/
 	font-family: "raleway", sans-serif;
-	/*font-family: "Montserrat", sans-serif;*/
-	 
 	font-size: 1.2em;
 	background-color:#ffffff;
   color: #001828;
@@ -175,7 +164,6 @@ p{
 .chartText{
 	margin-top: 3px;
 	font-size:0.75em !important;
-	/*color: #37A;*/
 }
 .hv-font{
 	font-size:2.6rem;
@@ -202,12 +190,8 @@ p{
 
 .info_contacto { visibility:hidden; animation-delay:0.2s; color:#FFF; margin-left:20px; margin-top:30px; line-height:1; }
 
-/* Hero */
-
 #infinite {
 	background-color: #000;
-  /*background-image: url(../img/infinite-loop-01.jpg);
-  background-repeat: no-repeat;*/
   height: 100vh;
   min-height: 375px;
   position: relative;
@@ -355,9 +339,6 @@ p{
 }
 
 @media (max-width: 991px) {
-  /*#testimonials {
-    background-image: url(../img/infinite-loop-02-mobile.jpg);
-  }*/
 }
 
 .tm-testimonials-content {
@@ -399,7 +380,7 @@ p{
   font-size: 1.1rem;
 }
 
-/* Work */
+
 
 .tm-section-desc {
   max-width: 650px;
@@ -446,8 +427,7 @@ p{
   font-size: 18px;
 }
 
-/* Hover Effect */
-/* Common style */
+
 .grid figure {
   position: relative;
   float: left;
@@ -488,8 +468,6 @@ p{
   height: 100%;
 }
 
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
 .grid figure figcaption > a {
   z-index: 1000;
   text-indent: 200%;
@@ -518,9 +496,6 @@ p{
   font-size: 68.5%;
 }
 
-/*---------------*/
-/***** Honey *****/
-/*---------------*/
 
 figure.effect-honey {
   background: #4a3753;
@@ -587,7 +562,6 @@ figure.effect-honey:hover h2 i {
 	padding-top: 30px;
 	}
 
-/* Contact */
 
 #contact {
   color: white;
@@ -636,7 +610,6 @@ figure.effect-honey:hover h2 i {
 	color: #fff;
 	background-color: #369;
 	width: 50%;
-	/*margin-bottom: 60px;*/
 }
 
 .tm-btn-submit:hover {
@@ -645,18 +618,15 @@ figure.effect-honey:hover h2 i {
 }
 
 ::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: white;
-  opacity: 1; /* Firefox */
+  opacity: 1; 
 }
 
 :-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
   color: white;
 }
 
 ::-ms-input-placeholder {
-  /* Microsoft Edge */
   color: white;
 }
 
@@ -758,7 +728,6 @@ p {
   }
 
   .navbar-collapse {
-    /*background-color: rgb(255, 255, 255);*/
     padding: 10px;
     border-radius: 3px;
   }
@@ -770,7 +739,6 @@ p {
   
   .chartText{
 	font-size:0.5em !important;
-	/*color: #37A;*/
   }
   
   .chartTextTitle{
